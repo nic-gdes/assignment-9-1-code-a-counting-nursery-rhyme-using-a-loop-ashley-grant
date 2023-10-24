@@ -23,4 +23,6 @@ for(var ducks = 10; ducks >= 0; ducks--) {
     verse.textContent = textString;
 
     list.appendChild(verse);
+
+    console.log
 }
