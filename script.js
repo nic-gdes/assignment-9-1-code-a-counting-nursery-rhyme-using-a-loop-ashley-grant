@@ -14,7 +14,7 @@
 
 const list = document.querySelector('#list');
 
-for(var ducks = 10; ducks >= 0; ducks--) {
+for(var ducks = 10; ducks >= 1; ducks--) {
     // console.log(ducks);
     let textString = `${ ducks } little ducks went swimming one day. Over the hills and far away. Mother Duck said QUACK QUACK QUACK QUACK! But only ${ ducks - 1} little ducks came back!`
     // console.log(textString);
@@ -24,5 +24,5 @@ for(var ducks = 10; ducks >= 0; ducks--) {
 
     list.appendChild(verse);
 
-    console.log
+    console.log("No little ducks went swimming one day. Over the hills and far away. Mother Duck Said Quack Quack Quack Quack! And all five little ducks came back!");
 }
